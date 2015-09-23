@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Spero</title>
+        <link rel="stylesheet" href="Materialize/dist/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css-animate/animate.min.css">
+        <link rel="stylesheet" href="assets/css/main.min.css">
+    </head>
+    <body ng-controller="GlobalController" class="container-fluid">
+        <div ng-include src="'templates/partials/_navbar.html'"></div>
+        <main ui-view></main>
+        <div ng-include src="'templates/partials/_footer.html'"></div>
+
+        <script src="jquery/dist/jquery.min.js"></script>
+        <script src="Materialize/dist/js/materialize.min.js"></script>
+        <script src="angular/angular.min.js"></script>
+        <script src="angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="javascript/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+@import "_variables.scss";
+@import "_typography.scss";
+@import "_button.scss";
+@import "_form.scss";
+@import "_layout.scss";
+@import "_global.scss";
+
+.parallax-container {
+    height:100vh;
+    &-first {
+        height: calc(100vh - 64px)
+    }
+}
+
+footer.page-footer {
+    margin-top:0;
+}
+
+.glass-panel {
+    background-color:rgba(255, 255, 255, 0.7);
+    padding:10px;
+}

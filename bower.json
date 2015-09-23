@@ -1,0 +1,20 @@
+{
+  "name": "appname",
+  "version": "0.0.0",
+  "authors": [
+    "--"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.1",
+    "angular": "~1.4.3",
+    "angular-ui-router": "~0.2.15"
+  }
+}
